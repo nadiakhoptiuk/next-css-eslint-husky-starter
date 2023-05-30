@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"], // якщо є папка src
-      "components": ["src/components"],
+      "components/*": ["src/components/*"],
       "views/*": ["src/views/*"],
       "layout/*": ["src/layout/*"],
       "utils/*": ["src/utils/*"]
